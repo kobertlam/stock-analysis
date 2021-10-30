@@ -9,16 +9,16 @@
 - Hopefully, the revised code [VBA_Challenge.xlsm](VBA_Challenge.xlsm) will take shorter execution time.
 
 ## Results
-![Stock Performance for 2017](Resources/Stock Performance 2017.png)
-![Stock Performance for 2018](Resources/Stock Performance 2018.png)
+![Stock Performance for 2017](Resources/Stock_Performance_2017.png)
+![Stock Performance for 2018](Resources/Stock_Performance_2018.png)
 - Both original code and the refactored code generated the same stock performance results for 2017 and 2018
 
-![Outcomes Based on Launch Date](Resources/VBA_Challenge_2017.png)
-![Outcomes Based on Launch Date](Resources/VBA_Challenge_2018.png)
+![Runtime for refactored 2017](Resources/VBA_Challenge_2017.png)
+![Runtime for refactored 2018](Resources/VBA_Challenge_2018.png)
 - The refactored code took 0.125s and 0.1132813s for running 2017 and 2018 data respectively.
 
-![Outcomes Based on Launch Date](Resources/All_Stock_Analysis_2017.png)
-![Outcomes Based on Launch Date](Resources/All_Stock_Analysis_2018.png)
+![Runtime for original 2017](Resources/All_Stock_Analysis_2017.png)
+![Runtime for original 20018](Resources/All_Stock_Analysis_2018.png)
 
 - When comparing with the execution time for the original code, it took 0.65625s and 0.6601563s for running the same sets of data.
 
