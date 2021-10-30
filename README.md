@@ -69,6 +69,6 @@
 
 - The execution time of the refactored code is significantly improved by revising the looping logic.
 - The revised code is more easier to understand, as it eliminated the unneccessary nested loop in the original code.
-- As the origial code was well-tested, the risk of inheriting potential errors from the original code is minimal.
+- As the origial code was well-tested and I am fully understanding the code, the risk of inheriting potential errors from the original code is minimal.
 
 
