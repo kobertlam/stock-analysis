@@ -26,7 +26,7 @@
 - The refactored code obviously took shorter time to generate the results based on the same dataset.
 - The main difference was in the looping logic:
 1. In the original code, it loops through the same data for 12 times (once for each ticker).
-2. In the refactored code, it run loop through the data once only.
+2. In the refactored code, it loops through the data once only.
 ```
    'Original code
    '4) Loop through tickers
@@ -57,8 +57,13 @@
 
 ### What are the advantages or disadvantages of refactoring code?
 
-- Advantages: 
+- Advantages:
+1. Improve code efficency by taking fewer steps, using less memory, or improving the logic of the code.
+2. Improve code readability and reduce complexity to make it easier for future users to read.
+
 - Disadvantages: 
+1. It is risky if the original code does not have proper test cases, the refactored code may have the same logical error that was copied from the original code. 
+2. It is difficult and risky if you doesn't understand the original code
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 
