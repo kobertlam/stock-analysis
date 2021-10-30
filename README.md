@@ -4,18 +4,26 @@
 
 ### Purpose
 - Steve wants to expand the dataset to include the entire stock market over the last few years.
-- Although the VBA we did in [green_stocks.xlsm](green_stocks.xlsm) was working fine for a dozen stocks, it may not work as well for thousands of stocks, ad it may take a long time to execute.
+- Although the VBA we did in [green_stocks.xlsm](green_stocks.xlsm) was working fine for a dozen stocks, it may not work as well for thousands of stocks, and it may take a long time to execute.
 - Here I will refactor the code to loop through all the data one time in order to collect the same information that we did before.
-- Hopefully, the revised code will take shorter execution time.
+- Hopefully, the revised code [VBA_Challenge.xlsm](VBA_Challenge.xlsm) will take shorter execution time.
 
 ## Results
+![Stock Performance for 2017](Resources/Stock Performance 2017.png)
+![Stock Performance for 2018](Resources/Stock Performance 2018.png)
+- Both original code and the refactored code generated the same stock performance results for 2017 and 2018
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+![Outcomes Based on Launch Date](Resources/VBA_Challenge_2017.png)
+![Outcomes Based on Launch Date](Resources/VBA_Challenge_2018.png)
+- The refactored code took 0.125s and 0.1132813s for running 2017 and 2018 data respectively.
 
-The month that launched the most successful Kickstarter campaigns was May.
-However, May, June, July, August and October all had roughly the same number of failed campaigns launched.
+![Outcomes Based on Launch Date](Resources/All_Stock_Analysis_2017.png)
+![Outcomes Based on Launch Date](Resources/All_Stock_Analysis_2018.png)
 
-- What can you conclude about the Outcomes based on Goals?
+- When comparing with the execution time for the original code, it took 0.65625s and 0.6601563s for running the same sets of data.
+
+
+What can you conclude about the Outcomes based on Goals?
 
 It is more likely to have successful outcome if the Goal is less than $1000, or between $1000 to $1500.
 
