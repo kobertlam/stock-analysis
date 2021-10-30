@@ -24,7 +24,9 @@
 
 - For the original code, it took 0.65625s and 0.6601563s for running the same sets of data.
 - The refactored code obviously took shorter time to generate the results based on the same dataset.
-- The main difference was in the looping logic: in the original code, it loops through the same data for 12 times (once for each ticker). In the refactored code, it run loop through the data once only.
+- The main difference was in the looping logic:
+1. In the original code, it loops through the same data for 12 times (once for each ticker).
+2. In the refactored code, it run loop through the data once only.
 ```
    'Original code
    '4) Loop through tickers
