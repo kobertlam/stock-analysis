@@ -11,30 +11,19 @@
 ## Results
 ![Stock Performance for 2017](Resources/Stock_Performance_2017.png)
 ![Stock Performance for 2018](Resources/Stock_Performance_2018.png)
-- Both original code and the refactored code generated the same stock performance results for 2017 and 2018
+- Both the original and the refactored code generated the same stock performance results for 2017 and 2018.
+- In 2017, SPWR had the highest 'Total Daily Voume', and DQ had the highest annual return.
+- In 2018, ENPH had both the highest 'Total Daily Voume' and the highest annual return. 
 
 ![Runtime for refactored 2017](Resources/VBA_Challenge_2017.png)
 ![Runtime for refactored 2018](Resources/VBA_Challenge_2018.png)
-- The refactored code took 0.125s and 0.1132813s for running 2017 and 2018 data respectively.
+- In terms of the execution time, the refactored code took 0.125s and 0.1132813s for running 2017 and 2018 data respectively.
 
 ![Runtime for original 2017](Resources/All_Stock_Analysis_2017.png)
 ![Runtime for original 20018](Resources/All_Stock_Analysis_2018.png)
 
-- When comparing with the execution time for the original code, it took 0.65625s and 0.6601563s for running the same sets of data.
-
-
-What can you conclude about the Outcomes based on Goals?
-
-It is more likely to have successful outcome if the Goal is less than $1000, or between $1000 to $1500.
-
-- What are some limitations of this dataset?
-
-1. The latest data was drawn from 2017, which is a little outdated. It is suggested to extract some recent data from the internet, in order to make the results more update-to-date.
-2. It is assumed that the currency of the amount shown in the "Goals" is the same even the campaigns were took place from different countries. If not, the results would be totally different.   
-
-- What are some other possible tables and/or graphs that we could create?
-
-We may further filtering both graphs with the Country like GB or US, depending on where Louise is planning to perform the play, to make the results more country specific and realistic. 
+- For the original code, it took 0.65625s and 0.6601563s for running the same sets of data.
+- The refactored code obviously took shorter time to generate the results based on the same dataset.
 
 ## Summary
 
