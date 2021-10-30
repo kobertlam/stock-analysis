@@ -5,7 +5,7 @@
 ### Purpose
 - Steve wants to expand the dataset to include the entire stock market over the last few years.
 - Although the VBA we did in [green_stocks.xlsm](green_stocks.xlsm) was working fine for a dozen stocks, it may not work as well for thousands of stocks, and it may take a long time to execute.
-- Here I will refactor the code to loop through all the data one time in order to collect the same information that we did before.
+- Here I refactored the code to loop through all the data one time in order to collect the same information that we did before.
 - Hopefully, the revised code [VBA_Challenge.xlsm](VBA_Challenge.xlsm) will take shorter execution time.
 
 ## Results
