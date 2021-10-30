@@ -67,7 +67,7 @@
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 
-- The execution time of the refactored code is significantly improved by revising the loop logic.
+- The execution time of the refactored code is significantly improved by revising the looping logic.
 - The revised code is more easier to understand, as it eliminated the unneccessary nested loop in the original code.
 - As the origial code was well-tested, the risk of inheriting potential errors from the original code is minimal.
 
